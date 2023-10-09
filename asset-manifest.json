@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/car-place/static/css/main.7acaea2f.css",
+    "main.js": "/car-place/static/js/main.07d3183d.js",
+    "index.html": "/car-place/index.html",
+    "main.7acaea2f.css.map": "/car-place/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/car-place/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
