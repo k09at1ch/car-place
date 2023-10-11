@@ -6,7 +6,7 @@ function NF() {
 
   useEffect(() => {
     navigate('/');
-  }, []);
+  }, [navigate, useEffect]);
 
   return null;
 }
