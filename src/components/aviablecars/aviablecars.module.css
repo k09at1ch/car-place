@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fullPage {
+  padding: 150px 128px;
+}
+.model {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #3470ff;
+}
+
+.carname {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121417;
+}
+
+.carCard {
+  width: 274px;
+  height: 426px;
+}
+
+.carCardList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.carCardButton {
+  width: 274px;
+  height: 44px;
+  background-color: #3470ff;
+  color: white;
+  padding: 12px 99px;
+  border-radius: 12px;
+  border: 0;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.carCardButton:hover {
+    cursor: pointer;
+    background-color: #0B44CD;
+}
+.carCardTitle {
+  display: block;
+  width: 235px;
+  height: 24px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 76px;
+}
+
+.carCardTitleSpan {
+  color: #3470ff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.carCardImage {
+  width: 274px;
+  height: 268px;
+  border-radius: 15px;
+  margin-bottom: 14px;
+}
+
+.carCardGlobalList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  margin-bottom: 50px;
+}
+
+.formTitle {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8a8a89;
+}
+
+.formSearch {
+  width: 136px;
+  height: 48px;
+  padding: 14px 44px;
+  border-radius: 12px;
+  background-color: #3470ff;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  border: 0;
+}
+
+.formDropdown1 {
+  width: 224px;
+  height: 48px;
+  padding: 14px 89px 14px 18px;
+  border-radius: 14px;
+  gap: 32px;
+}
+
+.fullCard:not(:last-child) {
+  margin-right: 29px;
+}
+
+.fullCard {
+  margin-bottom: 50px;
+}
+
+.buttonLoadMore {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3470ff;
+  background: rgba(1, 1, 1, 0);
+  border: 0;
+  text-decoration: underline;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 50px auto 0 auto;
+}
+.buttonLoadMore:hover {
+    cursor: pointer;
+    background-color: #0B44CD;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border: 1px solid black;
+  width: min-content;
+  height: auto;
+  background-color: #fff;
+  padding: 40px;
+  z-index: 11111111111111111111111111;
+}
+
+.li {
+  max-height: 30px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121417;
+}
+.modalAbout {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121417;
+  margin-bottom: 24px;
+  width: 461px;
+}
+.modalFunc {
+  font-family: Manrope;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(18, 20, 23, 50%);
+}
+.modalFuncList {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.text {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #f9f9f9;
+  padding: 7px 14px;
+  border-radius: 35px;
+  color: #363535;
+}
+.number {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+  color: #3470ff;
+}
+.rental {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121417;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.rentalButton {
+  width: 168px;
+  height: 44px;
+  background-color: #3470ff;
+  padding: 12px 50px;
+  color: #fff;
+  border-radius: 12px;
+  border: 0;
+  margin-top: 24px;
+}
+.rentalButton:hover {
+    cursor: pointer;
+    background-color: #0B44CD;
+}
+.close{
+    width: 12px;
+    height: 12px;
+    color: #121417;
+    border: 1.8px;
+    position: absolute;
+    top: 16px;
+    right: 28px;
+}
+.close:hover{
+    cursor: pointer;
+}
+.favoriteButton{
+    background: 0;
+    border: 0;
+    position: relative;
+    
+    top: -420px;
+    left: 240px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 20, 23, 0.5);
+  z-index: 200;
+  display: none;
+}
+
+.show-backdrop {
+  display: block;
+}
