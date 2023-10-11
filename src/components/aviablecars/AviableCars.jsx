@@ -242,7 +242,7 @@ function AvailableCars() {
                 padding: '14px 24px',
                 width: '112px',
                 height: '20px',
-                borderRadius: '12px',
+  
                 background: '#F7F7FB',
                 border: '0',
                 borderRadius: '0 14px 14px 0',
